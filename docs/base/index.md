@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Math API
+title: Base
 has_children: true
 ---
 

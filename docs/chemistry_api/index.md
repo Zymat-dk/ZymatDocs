@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Math API
+title: Chemistry API
 has_children: true
 ---
 
