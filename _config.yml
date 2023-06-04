@@ -5,3 +5,9 @@ theme: just-the-docs
 url: https://zymat-dk.github.io/ZymatDocs
 
 
+aux_links:
+  "Zymat.dk":
+    - "//zymat.dk"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
