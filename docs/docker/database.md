@@ -16,7 +16,11 @@ To apply migrations:
 
 To make migrations from changed code:
 ```bash
-./run manage makemigrations
+./run manage makemigrations <MODULE>
+```
+Most of the time it will be the `pages` module:
+```bash
+./run manage makemigrations pages
 ```
 
 Create superuser:
@@ -25,9 +29,30 @@ Create superuser:
 ```
 
 # Manage the code 
+```bash
+./run manage <COMMAND>
+```
 
-TODO
+TODO: Linting, secret, quality, formatting
+
 
 # Updating dependencies or added new 
+```bash
+./run pip3:outdated
+```
+
+```bash
+./run yarn:outdated
+```
+
+```bash
+./run pip3:install
+```
+
+```bash
+./run yarn:install
+```
+
+# Testing
 
 TODO
