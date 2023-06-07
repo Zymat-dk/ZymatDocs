@@ -26,10 +26,13 @@ In the future this will be further divided into subsections about the different 
 # `config`-app
 This is the parent app, which controls the URL endpoints for the entire project. It currently controls auth URLs:
 
-* `accounts/logout/`
 * `accounts/google/login/`
 * `accounts/google/login/callback/`
 * `logout/`
+
+Deprecated:
+
+* `accounts/logout/` 
 
 # Chem, Math, Physics
 These only control their respective endpoints (i.e. math controls `math/` etc) and will only control these. 
