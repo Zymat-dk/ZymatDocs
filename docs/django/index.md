@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Chemistry API
+title: Django
 has_children: true
 nav_order: 8
 ---
