@@ -5,6 +5,17 @@ parent: Base
 ---
 
 # Settings
+All settings are accessed when initialising an objekt inheriting from the base class.
+The settings are passed as a dictionary, with the setting name as key, and value as the setting value.
+If a setting is passed with an unknown name, a ValueError is raised.
+The available settings are:
+
+* [numeric](#numeric)
+* [decimalCount](#decimalcount)
+* [commaSeparated](#commaseparated)
+* [useDegrees](#usedegrees)
+* [calcType](#calctype)
+
 
 ## numeric
 `type: bool`
@@ -26,8 +37,9 @@ When `False`, the exact value will be displayed.
 
 ## decimalCount
 `type: int`
+`range: 0-15`
 ### Description
-This setting describes the amount of decimals to be displayed.
+This setting describes the amount of decimal places to display.
 
 ### Examples
 
