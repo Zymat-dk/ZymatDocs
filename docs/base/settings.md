@@ -15,7 +15,7 @@ When `False`, the exact value will be displayed.
 
 ### Examples
 | Setting Value | Input |  Output  |
-|---------------|-------|----------|
+| --- | --- | --- |
 | `False`       | `1/3` | `1/3`    |
 | `True`        | `1/3` | `0.3333` |
 | `False`       | `√2`  | `√2`     |
@@ -25,6 +25,9 @@ When `False`, the exact value will be displayed.
 
 ## decimalCount
 `type: int`
+### Description
+This setting describes the amount of decimals to be displayed.
+
 
 
 ## commaSeparated
