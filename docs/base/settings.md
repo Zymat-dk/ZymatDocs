@@ -14,8 +14,9 @@ When `True`, all fractional values will be computed to numerical values.
 When `False`, the exact value will be displayed.
 
 ### Examples
+
 | Setting Value | Input |  Output  |
-| --- | --- | --- |
+|---------------|-------|----------|
 | `False`       | `1/3` | `1/3`    |
 | `True`        | `1/3` | `0.3333` |
 | `False`       | `√2`  | `√2`     |
