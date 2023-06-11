@@ -64,7 +64,25 @@ Primarily an option because of the lovely danish system.
 
 ## useDegrees
 `type: bool`
+### Description
+This setting decides if degrees or radians should be used, when calculation trigonometric functions (`cos, sin, tan, etc.`).
+When `False` radians are used, when `True` degrees are used.
 
+### Exceptions
+When calculating values for triangles (the triangle calculator) degrees are always used.
+For these calculations the value of this setting is ignored, and degrees are used.
+
+### Examples
+Examples are for all non-triangle calculators.
+
+| Setting Value | Input     |  Output  |
+|---------------|-----------|----------|
+| `False`       |`sin(2)`   |`0.9093`  |
+| `True`        |`sin(2)`   |`0.0349`  |
+| `False`       |`cos(π)`   |`-1`      |
+| `True`        |`cos(π)`   |`0.9985`  |
+| `False`       |`atan(0.5)`|`0.4636`  |
+| `True`        |`atan(0.5)`|`26.5651` |
 
 ## calcType
 `type: int`
