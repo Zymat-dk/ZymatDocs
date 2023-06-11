@@ -44,6 +44,22 @@ This setting describes the amount of decimals to be displayed.
 
 ## commaSeparated
 `type: bool`
+### Description
+This setting describes whether to use commas og periods for decimal separation.
+When `False`, the decimals are separated with periods (`.`).
+When `True`, the decimals are separated with commas (`,`).
+Primarily an option because of the lovely danish system.
+
+### Examples
+
+| Setting Value | Input   |  Output  |
+|---------------|---------|----------|
+| `False`       |`0.3333` | `0.3333` |
+| `True`        |`0.3333` | `0,3333` |
+| `False`       |`2.5`    | `2.5`    |
+| `True`        |`2.5`    | `2,5`    |
+| `False`       |`2.0`    | `2`      |
+| `True`        |`2.0`    | `2`      |
 
 
 ## useDegrees
