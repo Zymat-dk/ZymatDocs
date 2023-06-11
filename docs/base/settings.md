@@ -86,3 +86,22 @@ Examples are for all non-triangle calculators.
 
 ## calcType
 `type: int`
+### Description
+This setting allows the user to select how many steps of the calculation they wish to include.
+The options are:
+
+0. Only the result.
+1. The result and calculation.
+2. The result, formula and calculation.
+
+
+### Examples
+
+| Setting Value |  Output               |
+|---------------|-----------------------|
+| `0`           |`a = 0.5`              |
+| `1`           |`a = 2/4 = 0.5`        |
+| `2`           |`a = b/c = 2/4 = 0.5`  |
+| `0`           |`x = -1`               |
+| `1`           |`x = (-2 ± √(2^2 - 4 * 1 * 4))/(2 * 1) = -1`|
+| `2`           |`x = (-b ± √(b^2 - 4 * a * c))/(2 * a) = (-2 ± √(2^2 - 4 * 1 * 4))/(2 * 1) = -1`|
