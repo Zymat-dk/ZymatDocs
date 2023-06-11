@@ -29,6 +29,17 @@ When `False`, the exact value will be displayed.
 ### Description
 This setting describes the amount of decimals to be displayed.
 
+### Examples
+
+| Setting Value | Input   |  Output  |
+|---------------|---------|----------|
+| `0`           |`0.3333` | `0`      |
+| `0`           |`0.5`    | `1`      |
+| `1`           |`0.3333` | `0.3`    |
+| `1`           |`24.35`  | `24.4`   |
+| `2`           |`0.3333` | `0.33`   |
+| `4`           |`0.5`    | `0.5`    |
+
 
 
 ## commaSeparated
