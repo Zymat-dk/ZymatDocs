@@ -19,6 +19,7 @@ The available settings are:
 
 ## numeric
 `type: bool`
+`default value: True`
 ### Description
 This setting describes the output value of calculation.
 When `True`, all fractional values will be computed to numerical values.
@@ -38,6 +39,7 @@ When `False`, the exact value will be displayed.
 ## decimalCount
 `type: int`
 `range: 0-15`
+`default value: 4`
 ### Description
 This setting describes the amount of decimal places to display.
 
@@ -56,6 +58,7 @@ This setting describes the amount of decimal places to display.
 
 ## commaSeparated
 `type: bool`
+`default value: False`
 ### Description
 This setting describes whether to use commas og periods for decimal separation.
 When `False`, the decimals are separated with periods (`.`).
@@ -76,6 +79,7 @@ Primarily an option because of the lovely danish system.
 
 ## useDegrees
 `type: bool`
+`default value: False`
 ### Description
 This setting decides if degrees or radians should be used, when calculation trigonometric functions (`cos, sin, tan, etc.`).
 When `False` radians are used, when `True` degrees are used.
@@ -98,6 +102,7 @@ Examples are for all non-triangle calculators.
 
 ## calcType
 `type: int`
+`default value: 1`
 ### Description
 This setting allows the user to select how many steps of the calculation they wish to include.
 The options are:
