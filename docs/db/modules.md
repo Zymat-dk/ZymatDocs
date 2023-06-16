@@ -115,7 +115,4 @@ The modules require a specific format in the json file. If the field is allowed 
     }
   }
 ]
-
-
-
-[def]: #name```
+```
