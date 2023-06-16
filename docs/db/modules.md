@@ -11,21 +11,13 @@ All metadata about each module is stored in the database, so each module can be 
 
 - [Modules in DB](#modules-in-db)
   - [name](#name)
-    - [Description](#description)
   - [slug\_name](#slug_name)
-    - [Description](#description-1)
   - [description](#description-2)
-    - [Description](#description-3)
   - [subjects](#subjects)
-    - [Description](#description-4)
   - [level](#level)
-    - [Description](#description-5)
   - [institution](#institution)
-    - [Description](#description-6)
   - [is\_premium](#is_premium)
-    - [Description](#description-7)
   - [is\_active](#is_active)
-    - [Description](#description-8)
 - [Update DB from file](#update-db-from-file)
 - [JSON format in modules.json](#json-format-in-modulesjson)
 
@@ -124,4 +116,6 @@ The modules require a specific format in the json file. If the field is allowed 
   }
 ]
 
-```
+
+
+[def]: #name```
