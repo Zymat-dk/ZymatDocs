@@ -22,7 +22,8 @@ The quadratic `x^2 + 2x + 1`, would have an `a` value of `1`, a `b` value of `2`
 
 
 ### Request body:
-```JSON
+
+```json
 {
     "a": 1,
     "b": 2,
@@ -34,7 +35,8 @@ The quadratic `x^2 + 2x + 1`, would have an `a` value of `1`, a `b` value of `2`
 ```
 
 ### Response body:
-```JSON
+
+```json
 {
     "string": "f(x) = x^2 + 2x + 1\nD = 2^2 - 4 * 1 * 1\nD = 0\nx = (-2 ± √(2^2 - 4 * 1 * 1))/(2 * 1)\nx = -1\nT = (-2/(2 * 1), -0/(4 * 1))\nT = (-1, 0)",
     "latex": "f(x) = x^{2} + 2x + 1\nD = 2^{2} - 4 \\cdot 1 \\cdot 1\nD = 0\nx = \\frac{-2 \\pm \\sqrt{2^{2} - 4 \\cdot 1 \\cdot 1}}{2 \\cdot 1}\nx = -1\nT = (-\\frac{2}{2 \\cdot 1}, -\\frac{0}{4 \\cdot 1})\nT = (-1, 0)"
