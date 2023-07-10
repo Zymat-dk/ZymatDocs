@@ -28,9 +28,6 @@ The quadratic `x^2 + 2x + 1`, would have an `a` value of `1`, a `b` value of `2`
     "a": 1,
     "b": 2,
     "c": 1,
-    "user_settings": {
-        "numeric": true
-    }
 }
 ```
 
