@@ -44,7 +44,7 @@ If only the `reactants` and `products` keys are supplied, the endpoint will retu
         ["+Cl₂", "1", "", "70.9", ""],
         ["->HCl", "2", "", "36.458", ""]
     ],
-    "string": "Stof\tH₂\t+Cl₂\t->HCl\r\nKoefficient\t1\t1\t2\r\nStofmængde\t\t\t\r\nMolarmasse\t2.016\t70.9\t36.458\r\nMasse\t\t\t\r\n"
+    "string": "Stof\tH₂\t'+Cl₂\t->HCl\r\nKoefficient\t1\t1\t2\r\nStofmængde\t\t\t\r\nMolarmasse\t2.016\t70.9\t36.458\r\nMasse\t\t\t\r\n"
 }
 ```
 
@@ -79,7 +79,7 @@ To tell the endpoint which substance has the specified amount the `known_value_i
         ["+Cl₂", "1", "2", "70.9", "141.8"],
         ["->HCl", "2", "4", "36.458", "145.832"]
     ],
-    "string": "Stof\tH₂\t+Cl₂\t->HCl\r\nKoefficient\t1\t1\t2\r\nStofmængde\t2\t2\t4\r\nMolarmasse\t2.016\t70.9\t36.458\r\nMasse\t4.032\t141.8\t145.832\r\n"
+    "string": "Stof\tH₂\t'+Cl₂\t->HCl\r\nKoefficient\t1\t1\t2\r\nStofmængde\t2\t2\t4\r\nMolarmasse\t2.016\t70.9\t36.458\r\nMasse\t4.032\t141.8\t145.832\r\n"
 }
 ```
 
