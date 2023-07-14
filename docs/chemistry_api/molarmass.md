@@ -11,7 +11,7 @@ parent: Chemistry API
 This endpoint will calculate the molarmass of stubstances. 
 It provides the correct molarmass for each of the elements sent to the endpoint. 
 
-When the API is called, the only key required is the `substances` key, which contains a string with elements, seperated with a `+`. 
+When the API is called, the only key required is the `substances` key, which contains a string with elements, seperated with a `+` or a `,`. 
 
 If succesful, the API will always return two elements. A `table` key, which contains a 2D list. 
 Each seperate list in the 2D list, contains an element and the corrosponding molarmass. 
