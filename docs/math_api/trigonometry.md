@@ -31,7 +31,7 @@ The "latex" key is a string that can be rendered in LaTeX to easily show a good-
 "angle_a", 
 "angle_b", 
 "angle_c", 
-"ssa_is_acute",
+"ass_is_acute",
 "area", 
 "perimeter" 
 ```
