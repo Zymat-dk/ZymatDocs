@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Quantity Calculator
+title: Molarmass
 parent: Chemistry API
 ---
 
-# Quantity Calculator API
+# Molarmass API
 ### Location: `/api/chemistry/molarmass/`
 
 ## Usage
