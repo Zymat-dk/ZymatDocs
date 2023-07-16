@@ -22,6 +22,34 @@ The "latex" key is a string that can be rendered in LaTeX to easily show a good-
 ![image](https://github.com/Zymat-dk/ZymatDocs/assets/32793938/59daf874-dbf8-40f9-bb58-310c564e1749)
 ![image](https://github.com/Zymat-dk/ZymatDocs/assets/32793938/7cb2ca3f-e969-4eb6-bb85-183f1ffab37f)
 
+## Request keys
+
+```json
+"side_a",
+"side_b",
+"side_c", 
+"angle_a", 
+"angle_b", 
+"angle_c", 
+"ssa_is_acute",
+"area", 
+"perimeter" 
+```
+
+## Response keys
+```json
+"side_a": float 
+"side_b": float
+"side_c": float
+"angle_a": float
+"angle_b": float
+"angle_c": float
+"area": float
+"perimeter": float
+"latex": [string]
+"string": string
+```
+
 
 ## Example
 The quadratic `x^2 + 2x + 1`, would have an `a` value of `1`, a `b` value of `2` and a `c` value of `1`.
