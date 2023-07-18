@@ -8,37 +8,37 @@ parent: Math API
 #### Location: `/api/math/trigonometry/`
 
 ## Usage
-This endpoint calculates a solution for a quadratic that looks like this:
-`ax^2 + bx + c = 0`
-And the three keys are `a`, `b` and `c`.
+This endpoint calculates a everything in a triangle, when three pieces of information are given.
 
 The API will return a response with two keys containing the calculations "string" and "latex".
-It will also return the three numbers "a", "b", "c" and the solutions for "x".
-There will also be the coordinates of the peak of the parabola under the key "t".
 The "string" key is a string that can easily be copied to the users clipboard, and pasted in programs like Microsoft Word to see the entire solution.
 The "latex" key is a string that can be rendered in LaTeX to easily show a good-looking version of the calculations.
 
-## Triangle types
-![image](https://github.com/Zymat-dk/ZymatDocs/assets/32793938/59daf874-dbf8-40f9-bb58-310c564e1749)
-![image](https://github.com/Zymat-dk/ZymatDocs/assets/32793938/7cb2ca3f-e969-4eb6-bb85-183f1ffab37f)
+It will also return the values of triangle, which can be used to draw the triangle.
+
 
 ## Request keys
 
 ```json
 "side_a",
 "side_b",
-"side_c", 
-"angle_a", 
-"angle_b", 
-"angle_c", 
-"ass_is_acute",
-"area", 
-"perimeter" 
+"side_c",
+"angle_a",
+"angle_b",
+"angle_c",
+"area",
+"perimeter",
+"use_obtuse_solution"
 ```
+
+Most of these are pretty self-explanatory. It is important that _exactly_ three of these are present.
+The final key is `use_obtuse_solution`, and does not count as one of the three keys, it is required when a triangle of the types `AAS` or `ASS` are being input.
+That is because these forms of input can create two different triangles.
+By default the API will return the acute version, unless the `use_obtuse_solution` key is set to `True`.
 
 ## Response keys
 ```json
-"side_a": float 
+"side_a": float
 "side_b": float
 "side_c": float
 "angle_a": float
@@ -46,20 +46,22 @@ The "latex" key is a string that can be rendered in LaTeX to easily show a good-
 "angle_c": float
 "area": float
 "perimeter": float
-"latex": [string]
+"latex": list[string]
 "string": string
 ```
 
 
 ## Example
-The quadratic `x^2 + 2x + 1`, would have an `a` value of `1`, a `b` value of `2` and a `c` value of `1`.
+A right triangle with cathodes length 3 & 4, would have this request:
 
 
 ### Request body:
 
 ```json
 {
-    
+    "angle_c": 90,
+    "side_a": 3,
+    "side_b": 4
 }
 ```
 
@@ -70,6 +72,12 @@ The quadratic `x^2 + 2x + 1`, would have an `a` value of `1`, a `b` value of `2`
     
 }
 ```
+
+## Triangle types
+
+![image](https://github.com/Zymat-dk/ZymatDocs/assets/32793938/59daf874-dbf8-40f9-bb58-310c564e1749)
+![image](https://github.com/Zymat-dk/ZymatDocs/assets/32793938/7cb2ca3f-e969-4eb6-bb85-183f1ffab37f)
+
 
 ## Supported settings
 The settings that have an effect on the response of this API endpoint are:
