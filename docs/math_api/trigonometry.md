@@ -32,7 +32,7 @@ It will also return the values of triangle, which can be used to draw the triang
 ```
 
 Most of these are pretty self-explanatory. It is important that _exactly_ three of these are present.
-The final key is `use_obtuse_solution`, and does not count as one of the three keys, it is required when a triangle of the types `AAS` or `ASS` are being input.
+The final key is `use_obtuse_solution`, and does not count as one of the three keys, it is used when a triangle of the types `AAS` or `ASS` are being input.
 That is because these forms of input can create two different triangles.
 By default the API will return the acute version, unless the `use_obtuse_solution` key is set to `True`.
 
