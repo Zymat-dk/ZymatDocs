@@ -48,6 +48,11 @@ By default the API will return the acute version, unless the `use_obtuse_solutio
 "perimeter": float
 "latex": list[string]
 "string": string
+"points": {
+    "a": list[float, float],
+    "b": list[float, float],
+    "c": list[float, float]
+}
 ```
 
 
