@@ -96,8 +96,12 @@ In this instance the triangle would be drawn upside down, which would look a bit
 
 ### Default cases
 
+![image](https://github.com/Zymat-dk/ZymatDocs/assets/32793938/1fa3d392-afd1-4139-9bf7-c351e4158801)
+
 
 ### Special case (Right Angle B)
+
+![image](https://github.com/Zymat-dk/ZymatDocs/assets/32793938/6fc13d79-6f11-4ebf-b880-1e6e7452a8ac)
 
 
 ## Supported settings
