@@ -87,6 +87,19 @@ A right triangle with cathodes length 3 & 4, would have this request:
 ![image](https://github.com/Zymat-dk/ZymatDocs/assets/32793938/7cb2ca3f-e969-4eb6-bb85-183f1ffab37f)
 
 
+## Triangle drawing
+The API will return points for drawing the triangle in 2D.
+The point `C` will almost always be at `(0, 0)`, and the point `A` will almost always have the y-coordinate `0`.
+
+The only exception to these rules, are if a right triangle is drawn, where the angle `B` is right.
+In this instance the triangle would be drawn upside down, which would look a bit weird, and it is therefore rotated.
+
+### Default cases
+
+
+### Special case (Right Angle B)
+
+
 ## Supported settings
 The settings that have an effect on the response of this API endpoint are:
 * numeric
