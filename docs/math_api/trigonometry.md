@@ -44,11 +44,11 @@ By default the API will return the acute version, unless the `use_obtuse_solutio
 "angle_a": float
 "angle_b": float
 "angle_c": float
+"area": float
+"perimeter": float
 "height_a": float
 "height_b": float
 "height_c": float
-"area": float
-"perimeter": float
 "latex": list[string]
 "string": string
 "points": {
