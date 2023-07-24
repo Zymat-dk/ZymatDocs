@@ -77,7 +77,36 @@ A right triangle with cathodes length 3 & 4, would have this request:
 
 ```json
 {
-    
+    "side_a": 3,
+    "side_b": 4,
+    "side_c": 5.0,
+    "angle_a": 36.86989764584402,
+    "angle_b": 53.13010235415598,
+    "angle_c": 90,
+    "area": 6.0,
+    "perimeter": 12.0,
+    "height_a": 4.0,
+    "height_b": 3.0,
+    "height_c": 2.4,
+    "latex": [
+        "C = 90°",
+        "a = 3",
+        "b = 4",
+        "c = \\sqrt{3^{2} + 4^{2}} = 5",
+        "A = \\tan^{-1}(\\frac{3}{5}) = 36.8699°",
+        "B = 180° - 90° - 36.8699° = 53.1301°",
+        "Areal = \\frac{1}{2} \\cdot 3 \\cdot 4 \\cdot \\sin(90°) = 6",
+        "O = 3 + 4 + 5 = 12",
+        "h_a = 2 \\cdot \\frac{6}{3} = 4",
+        "h_b = 2 \\cdot \\frac{6}{4} = 3",
+        "h_c = 2 \\cdot \\frac{6}{5} = 2.4"
+    ],
+    "string": "C = 90°\na = 3\nb = 4\nc = √(3^2 + 4^2) = 5\nA = tan^(-1) (3/5) = 36.8699°\nB = 180° - 90° - 36.8699° = 53.1301°\nAreal = 1/2 * 3 * 4 * sin(90°) = 6\nO = 3 + 4 + 5 = 12\nh_a = 2 * 6/3 = 4\nh_b = 2 * 6/4 = 3\nh_c = 2 * 6/5 = 2.4",
+    "points": {
+        "a": [4, 0],
+        "b": [0.0, 3.0],
+        "c": [0, 0]
+    }
 }
 ```
 
