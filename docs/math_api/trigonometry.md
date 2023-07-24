@@ -135,7 +135,7 @@ In this instance the triangle would be drawn upside down, which would look a bit
 
 ## Supported settings
 The settings that have an effect on the response of this API endpoint are:
-* numeric
+* numeric (not yet)
 * decimalCount
 * commaSeparated
 * calcType
