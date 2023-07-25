@@ -58,7 +58,7 @@ This setting describes the amount of decimal places to display.
 
 ## commaSeparated
 `type: bool`
-`default value: False`
+`default value: True`
 ### Description
 This setting describes whether to use commas og periods for decimal separation.
 When `False`, the decimals are separated with periods (`.`).
