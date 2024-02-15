@@ -11,10 +11,10 @@ If a setting is passed with an unknown name, a ValueError is raised.
 The available settings are:
 
 * [numeric](#numeric)
-* [decimalCount](#decimalcount)
-* [commaSeparated](#commaseparated)
-* [useDegrees](#usedegrees)
-* [calcType](#calctype)
+* [decimal_count](#decimal_count)
+* [comma_separated](#comma_separated)
+* [use_degrees](#use_degrees)
+* [output_verbosity](#output_verbosity)
 
 
 ## numeric
@@ -36,7 +36,7 @@ When `False`, the exact value will be displayed.
 | `False`       | `2`   | `2`      |
 | `True`        | `2`   | `2`      |
 
-## decimalCount
+## decimal_count
 `type: int`
 `range: 0-15`
 `default value: 4`
@@ -56,7 +56,7 @@ This setting describes the amount of decimal places to display.
 
 
 
-## commaSeparated
+## comma_separated
 `type: bool`
 `default value: True`
 ### Description
@@ -77,7 +77,7 @@ Primarily an option because of the lovely danish system.
 | `True`        |`2.0`    | `2`      |
 
 
-## useDegrees
+## use_degrees
 `type: bool`
 `default value: False`
 ### Description
@@ -100,7 +100,7 @@ Examples are for all non-triangle calculators.
 | `False`       |`atan(0.5)`|`0.4636`  |
 | `True`        |`atan(0.5)`|`26.5651` |
 
-## calcType
+## output_verbosity
 `type: int`
 `default value: 1`
 ### Description
